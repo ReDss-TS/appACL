@@ -1,0 +1,96 @@
+body {
+    background: #f3f2f3;
+    color: #000000;
+}
+
+.header {
+    background-color: #f44336;
+    padding: 20px 40px;
+    color: black;
+}
+
+h3 {
+    text-align: right;
+}
+
+h2 {
+    text-align: center;
+}
+
+.editBlock {
+    margin: auto;
+    width: 30%;
+    background-color: #f44336;
+    padding: 20px 40px;
+    color: black;
+}
+
+.editBlockHead {
+    margin: auto;
+    width: 30%;
+    padding: 1px 20px;
+    color: black;
+}
+
+.field {
+    clear: both;
+    text-align: right;
+}
+
+label {
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+label.ErrorLabel{
+    float: right;
+    font-size: 14px;
+}
+
+label.msg{
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+
+input.text {
+    width: 200px;
+    height: 15px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #999;
+    margin-bottom: 3px;
+}
+
+input.button {
+    float: right;
+    cursor: pointer;
+}
+
+input.checkbox {
+  width: 100%;
+  text-align: center;
+}
+.button {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+.hBtn {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  cursor: pointer;
+}
